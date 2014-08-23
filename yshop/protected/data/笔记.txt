@@ -1,0 +1,9 @@
+
+
+路径别名：system: framework目录
+		application: 项目目录
+		
+		
+
+		
+控制器内的actions方法（public function actions(){}），访问控制器内不存在的action会到里面找。
