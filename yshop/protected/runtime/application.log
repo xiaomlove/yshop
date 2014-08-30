@@ -5027,3 +5027,1786 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/index.php?r=admin/user/lds
 ---
+2014/08/24 17:54:34 [error] [exception.CException] exception 'CException' with message 'Property "CategoryController.breadCrumbs" is not defined.' in D:\amp\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php(118): CComponent->__get('breadCrumbs')
+#1 D:\amp\yii\framework\web\CBaseController.php(126): require('D:\amp\yii\ysho...')
+#2 D:\amp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\amp\yii\ysho...', Array, true)
+#3 D:\amp\yii\framework\web\CController.php(784): CBaseController->renderFile('D:\amp\yii\ysho...', Array, true)
+#4 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(36): CController->render('categoryList', Array)
+#5 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#6 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#15 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#16 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php?r=admin/category/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/24 18:10:51 [error] [exception.CException] exception 'CException' with message 'Property "CategoryController.breadCrumbs" is not defined.' in D:\amp\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php(118): CComponent->__get('breadCrumbs')
+#1 D:\amp\yii\framework\web\CBaseController.php(126): require('D:\amp\yii\ysho...')
+#2 D:\amp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\amp\yii\ysho...', Array, true)
+#3 D:\amp\yii\framework\web\CController.php(784): CBaseController->renderFile('D:\amp\yii\ysho...', Array, true)
+#4 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(43): CController->render('categoryList', Array)
+#5 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#6 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#15 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#16 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php?r=admin/category/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/24 18:10:54 [error] [exception.CException] exception 'CException' with message 'Property "CategoryController.breadCrumbs" is not defined.' in D:\amp\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php(118): CComponent->__get('breadCrumbs')
+#1 D:\amp\yii\framework\web\CBaseController.php(126): require('D:\amp\yii\ysho...')
+#2 D:\amp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\amp\yii\ysho...', Array, true)
+#3 D:\amp\yii\framework\web\CController.php(784): CBaseController->renderFile('D:\amp\yii\ysho...', Array, true)
+#4 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(43): CController->render('categoryList', Array)
+#5 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#6 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#15 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#16 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php?r=admin/category/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/24 18:12:34 [error] [php] Undefined variable: breadCrumbs (D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php:118)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(784): CategoryController->renderFile()
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(43): CategoryController->render()
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CategoryController->runAction()
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CategoryController->filterAccessControl()
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CategoryController->runActionWithFilters()
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CategoryController->run()
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/category/list
+in D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php (118)
+in D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php (43)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/24 18:16:19 [error] [php] Undefined variable: breadCrumbs (D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php:118)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(784): CategoryController->renderFile()
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(43): CategoryController->render()
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CategoryController->runAction()
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CategoryController->filterAccessControl()
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CategoryController->runActionWithFilters()
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CategoryController->run()
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/category/list
+in D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php (118)
+in D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php (43)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/24 18:16:20 [error] [php] Undefined variable: breadCrumbs (D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php:118)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(784): CategoryController->renderFile()
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(43): CategoryController->render()
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CategoryController->runAction()
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CategoryController->filterAccessControl()
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CategoryController->runActionWithFilters()
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CategoryController->run()
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/category/list
+in D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php (118)
+in D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php (43)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/24 18:20:03 [error] [php] Undefined variable: breadcrumbs (D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php:118)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(784): CategoryController->renderFile()
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(43): CategoryController->render()
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CategoryController->runAction()
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CategoryController->filterAccessControl()
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CategoryController->runActionWithFilters()
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CategoryController->run()
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/category/list
+in D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php (118)
+in D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php (43)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/24 18:20:06 [error] [php] Undefined variable: breadcrumbs (D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php:118)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(784): CategoryController->renderFile()
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(43): CategoryController->render()
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CategoryController->runAction()
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CategoryController->filterAccessControl()
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CategoryController->runActionWithFilters()
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CategoryController->run()
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/category/list
+in D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php (118)
+in D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php (43)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/24 18:21:56 [error] [php] Undefined variable: breadcrumbs (D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php:118)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(784): CategoryController->renderFile()
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(44): CategoryController->render()
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CategoryController->runAction()
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CategoryController->filterAccessControl()
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CategoryController->runActionWithFilters()
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CategoryController->run()
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/category/list
+in D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php (118)
+in D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php (44)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/24 18:21:57 [error] [php] Undefined variable: breadcrumbs (D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php:118)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(784): CategoryController->renderFile()
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(44): CategoryController->render()
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CategoryController->runAction()
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CategoryController->filterAccessControl()
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CategoryController->runActionWithFilters()
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CategoryController->run()
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/category/list
+in D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php (118)
+in D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php (44)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/24 18:22:31 [error] [php] Undefined variable: breadCrumbs (D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php:118)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(784): CategoryController->renderFile()
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(44): CategoryController->render()
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CategoryController->runAction()
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CategoryController->filterAccessControl()
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CategoryController->runActionWithFilters()
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CategoryController->run()
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/category/list
+in D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php (118)
+in D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php (44)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/24 18:22:39 [error] [php] Undefined variable: breadCrumbs (D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php:118)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(784): CategoryController->renderFile()
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(44): CategoryController->render()
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CategoryController->runAction()
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CategoryController->filterAccessControl()
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CategoryController->runActionWithFilters()
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CategoryController->run()
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/category/list
+in D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php (118)
+in D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php (44)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/24 18:25:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "lo".' in D:\amp\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(270): CController->missingAction('lo')
+#1 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('lo')
+#2 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/lo')
+#3 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=admin/user/lo
+---
+2014/08/24 18:25:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\amp\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user')
+#3 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=admin/user
+---
+2014/08/24 20:39:48 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.tool" is not defined.' in D:\amp\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\amp\yii\framework\base\CModule.php(105): CComponent->__get('tool')
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\IndexController.php(8): CModule->__get('tool')
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): IndexController->actionIndex()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index/ind...')
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=admin/index/index
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/24 20:42:11 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.tool" is not defined.' in D:\amp\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\amp\yii\framework\base\CModule.php(105): CComponent->__get('tool')
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\IndexController.php(8): CModule->__get('tool')
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): IndexController->actionIndex()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index/ind...')
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=admin/index/index
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/24 20:42:13 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.tool" is not defined.' in D:\amp\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\amp\yii\framework\base\CModule.php(105): CComponent->__get('tool')
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\IndexController.php(8): CModule->__get('tool')
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): IndexController->actionIndex()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index/ind...')
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=admin/index/index
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/24 20:44:42 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.tool" is not defined.' in D:\amp\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\amp\yii\framework\base\CModule.php(105): CComponent->__get('tool')
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\IndexController.php(8): CModule->__get('tool')
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): IndexController->actionIndex()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index/ind...')
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=admin/index/index
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/24 20:47:02 [error] [php] Non-static method Tool::getAdminMenu() should not be called statically, assuming $this from incompatible context (D:\amp\yii\yshop\protected\modules\admin\controllers\IndexController.php:8)
+Stack trace:
+#0 D:\amp\yii\framework\web\filters\CFilterChain.php(133): IndexController->runAction()
+#1 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): IndexController->filterAccessControl()
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(265): IndexController->runActionWithFilters()
+#7 D:\amp\yii\framework\web\CWebApplication.php(282): IndexController->run()
+#8 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/index/index
+in D:\amp\yii\yshop\protected\modules\admin\controllers\IndexController.php (8)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/24 20:47:30 [error] [php] Use of undefined constant application - assumed 'application' (D:\amp\yii\yshop\protected\components\Tool.php:7)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\amp\yii\framework\web\filters\CFilterChain.php(133): IndexController->runAction()
+#2 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): IndexController->filterAccessControl()
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(265): IndexController->runActionWithFilters()
+#8 D:\amp\yii\framework\web\CWebApplication.php(282): IndexController->run()
+#9 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/index/index
+in D:\amp\yii\yshop\protected\components\Tool.php (7)
+in D:\amp\yii\yshop\protected\modules\admin\controllers\IndexController.php (8)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/24 20:53:29 [error] [php] file_get_contents(admin_config) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory (D:\amp\yii\yshop\protected\components\Tool.php:8)
+Stack trace:
+#0 D:\amp\yii\framework\web\actions\CInlineAction.php(49): IndexController->actionIndex()
+#1 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\amp\yii\framework\web\filters\CFilterChain.php(133): IndexController->runAction()
+#3 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): IndexController->filterAccessControl()
+#6 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\amp\yii\framework\web\CController.php(265): IndexController->runActionWithFilters()
+#9 D:\amp\yii\framework\web\CWebApplication.php(282): IndexController->run()
+#10 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/index/index
+in D:\amp\yii\yshop\protected\components\Tool.php (8)
+in D:\amp\yii\yshop\protected\modules\admin\controllers\IndexController.php (8)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/24 21:17:59 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "basePath".' in D:\amp\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\amp\yii\yshop\protected\components\Tool.php(8): CComponent->__call('basePath', Array)
+#1 D:\amp\yii\yshop\protected\components\Tool.php(8): CWebApplication->basePath()
+#2 D:\amp\yii\yshop\protected\modules\admin\controllers\IndexController.php(8): Tool::getAdminMenu()
+#3 D:\amp\yii\framework\web\actions\CInlineAction.php(49): IndexController->actionIndex()
+#4 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#13 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/index/ind...')
+#14 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=admin/index/index
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/24 22:02:16 [error] [exception.CException] exception 'CException' with message 'CategoryController cannot find the requested view "categoryList".' in D:\amp\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(782): CController->renderPartial('categoryList', Array, true)
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(44): CController->render('categoryList', Array)
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=admin/category/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/index/index
+---
+2014/08/24 22:04:59 [error] [exception.CException] exception 'CException' with message 'CategoryController cannot find the requested view "categoryList".' in D:\amp\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(782): CController->renderPartial('categoryList', Array, true)
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(44): CController->render('categoryList', Array)
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=admin/category/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/index/index
+---
+2014/08/24 22:05:45 [error] [php] Missing argument 1 for CController::__construct(), called in D:\amp\yii\yshop\protected\modules\admin\components\AdminController.php on line 9 and defined (D:\amp\yii\framework\web\CController.php:110)
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(338): CWebApplication->createController()
+#1 D:\amp\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#2 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#3 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/category/list
+in D:\amp\yii\yshop\protected\modules\admin\components\AdminController.php (9)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/24 22:06:36 [error] [exception.CException] exception 'CException' with message 'CategoryController cannot find the requested view "categoryList".' in D:\amp\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(782): CController->renderPartial('categoryList', Array, true)
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(45): CController->render('categoryList', Array)
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=admin/category/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/index/index
+---
+2014/08/24 22:07:37 [error] [php] Undefined variable: model (D:\amp\yii\yshop\protected\modules\admin\components\AdminController.php:8)
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#1 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#2 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#3 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/category/list
+in D:\amp\yii\yshop\protected\modules\admin\components\AdminController.php (8)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/24 22:08:42 [error] [exception.CException] exception 'CException' with message 'CategoryController cannot find the requested view "categoryList".' in D:\amp\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(782): CController->renderPartial('categoryList', Array, true)
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(45): CController->render('categoryList', Array)
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=admin/category/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/index/index
+---
+2014/08/24 22:31:38 [error] [exception.CException] exception 'CException' with message 'CategoryController cannot find the requested view "categoryList".' in D:\amp\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(782): CController->renderPartial('categoryList', Array, true)
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(45): CController->render('categoryList', Array)
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=admin/category/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/index/index
+---
+2014/08/24 22:33:03 [error] [exception.CException] exception 'CException' with message 'CategoryController cannot find the requested view "categoryList".' in D:\amp\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(782): CController->renderPartial('categoryList', Array, true)
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(45): CController->render('categoryList', Array)
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=admin/category/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/index/index
+---
+2014/08/24 22:33:04 [error] [exception.CException] exception 'CException' with message 'CategoryController cannot find the requested view "categoryList".' in D:\amp\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(782): CController->renderPartial('categoryList', Array, true)
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(45): CController->render('categoryList', Array)
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=admin/category/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/index/index
+---
+2014/08/24 22:33:37 [error] [exception.CException] exception 'CException' with message 'CategoryController cannot find the requested view "categoryList".' in D:\amp\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(782): CController->renderPartial('categoryList', Array, true)
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(45): CController->render('categoryList', Array)
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=admin/category/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/index/index
+---
+2014/08/24 22:33:38 [error] [exception.CException] exception 'CException' with message 'CategoryController cannot find the requested view "categoryList".' in D:\amp\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(782): CController->renderPartial('categoryList', Array, true)
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(45): CController->render('categoryList', Array)
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=admin/category/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/index/index
+---
+2014/08/24 22:33:39 [error] [exception.CException] exception 'CException' with message 'CategoryController cannot find the requested view "categoryList".' in D:\amp\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(782): CController->renderPartial('categoryList', Array, true)
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(45): CController->render('categoryList', Array)
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=admin/category/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/index/index
+---
+2014/08/24 22:33:39 [error] [exception.CException] exception 'CException' with message 'CategoryController cannot find the requested view "categoryList".' in D:\amp\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(782): CController->renderPartial('categoryList', Array, true)
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(45): CController->render('categoryList', Array)
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=admin/category/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/index/index
+---
+2014/08/24 22:33:39 [error] [exception.CException] exception 'CException' with message 'CategoryController cannot find the requested view "categoryList".' in D:\amp\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(782): CController->renderPartial('categoryList', Array, true)
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(45): CController->render('categoryList', Array)
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=admin/category/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/index/index
+---
+2014/08/24 22:33:42 [error] [exception.CException] exception 'CException' with message 'CategoryController cannot find the requested view "categoryList".' in D:\amp\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(782): CController->renderPartial('categoryList', Array, true)
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(45): CController->render('categoryList', Array)
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=admin/category/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/index/index
+---
+2014/08/24 22:45:02 [error] [php] Undefined variable: id (D:\amp\yii\yshop\protected\modules\admin\components\AdminController.php:15)
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#1 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#2 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#3 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/category/list
+in D:\amp\yii\yshop\protected\modules\admin\components\AdminController.php (15)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/24 22:45:12 [error] [exception.CException] exception 'CException' with message 'CategoryController cannot find the requested view "categoryList".' in D:\amp\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(782): CController->renderPartial('categoryList', Array, true)
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(45): CController->render('categoryList', Array)
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=admin/category/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/index/index
+---
+2014/08/24 22:45:37 [error] [exception.CException] exception 'CException' with message 'Property "CategoryController.model" is not defined.' in D:\amp\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\amp\yii\yshop\protected\modules\admin\components\AdminController.php(15): CComponent->__get('model')
+#1 D:\amp\yii\framework\web\CWebApplication.php(359): AdminController->__construct('category', Object(AdminModule))
+#2 D:\amp\yii\framework\web\CWebApplication.php(338): CWebApplication->createController('category/list/', Object(AdminModule))
+#3 D:\amp\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('admin/category/...')
+#4 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#5 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=admin/category/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/index/index
+---
+2014/08/24 22:46:01 [error] [exception.CException] exception 'CException' with message 'Property "CategoryController.model" is not defined.' in D:\amp\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\amp\yii\yshop\protected\modules\admin\components\AdminController.php(15): CComponent->__get('model')
+#1 D:\amp\yii\framework\web\CWebApplication.php(359): AdminController->__construct('category', Object(AdminModule))
+#2 D:\amp\yii\framework\web\CWebApplication.php(338): CWebApplication->createController('category/list/', Object(AdminModule))
+#3 D:\amp\yii\framework\web\CWebApplication.php(276): CWebApplication->createController('admin/category/...')
+#4 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#5 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#7 {main}
+REQUEST_URI=/index.php?r=admin/category/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/index/index
+---
+2014/08/24 22:48:03 [error] [exception.CException] exception 'CException' with message 'CategoryController cannot find the requested view "categoryList".' in D:\amp\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(782): CController->renderPartial('categoryList', Array, true)
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(45): CController->render('categoryList', Array)
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=admin/category/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/index/index
+---
+2014/08/24 23:14:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/24 23:15:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in D:\amp\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(270): CController->missingAction('list')
+#1 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#2 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/list')
+#3 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=admin/user/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/24 23:37:08 [error] [php] Object of class CInlineAction could not be converted to string (D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php:50)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(784): CategoryController->renderFile()
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(45): CategoryController->render()
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CategoryController->runAction()
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CategoryController->filterAccessControl()
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CategoryController->runActionWithFilters()
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CategoryController->run()
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/category/list
+in D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php (50)
+in D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php (45)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/24 23:37:25 [error] [exception.CException] exception 'CException' with message 'Property "CategoryController.actionId" is not defined.' in D:\amp\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php(50): CComponent->__get('actionId')
+#1 D:\amp\yii\framework\web\CBaseController.php(126): require('D:\amp\yii\ysho...')
+#2 D:\amp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\amp\yii\ysho...', Array, true)
+#3 D:\amp\yii\framework\web\CController.php(784): CBaseController->renderFile('D:\amp\yii\ysho...', Array, true)
+#4 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(45): CController->render('categoryList', Array)
+#5 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#6 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#15 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#16 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php?r=admin/category/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/24 23:44:58 [error] [php] Undefined variable: subMenu (D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php:48)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(784): CategoryController->renderFile()
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php(45): CategoryController->render()
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): CategoryController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CategoryController->runAction()
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CategoryController->filterAccessControl()
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CategoryController->runActionWithFilters()
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CategoryController->run()
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/category/list
+in D:\amp\yii\yshop\protected\modules\admin\views\layouts\yshopAdmin.php (48)
+in D:\amp\yii\yshop\protected\modules\admin\controllers\CategoryController.php (45)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/25 00:08:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/25 00:09:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/25 00:10:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/user/profile
+---
+2014/08/25 00:58:08 [error] [php] Object of class CInlineAction could not be converted to string (D:\amp\yii\yshop\protected\modules\admin\controllers\IndexController.php:7)
+Stack trace:
+#0 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#1 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#2 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): IndexController->filterAccessControl()
+#3 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#4 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#5 D:\amp\yii\framework\web\CController.php(265): IndexController->runActionWithFilters()
+#6 D:\amp\yii\framework\web\CWebApplication.php(282): IndexController->run()
+#7 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/index/index
+in D:\amp\yii\yshop\protected\modules\admin\controllers\IndexController.php (7)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/25 01:03:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/25 01:05:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/25 01:05:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+---
+2014/08/25 01:05:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/25 01:06:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/25 01:06:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/25 01:06:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+---
+2014/08/25 01:06:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+---
+2014/08/25 01:06:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+---
+2014/08/25 01:06:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/ss".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/ss')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/ss
+---
+2014/08/25 01:07:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/25 01:08:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in D:\amp\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(270): CController->missingAction('list')
+#1 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#2 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/list')
+#3 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=admin/user/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/25 01:08:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+---
+2014/08/25 21:15:34 [error] [php] file_get_contents(http://cn.bing.com/HPImageArchive.aspx?idx=0&amp;n=1) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php:23)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\amp\yii\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#2 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#8 D:\amp\yii\framework\web\CWebApplication.php(282): UserController->run()
+#9 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/user/login
+in D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php (23)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/25 21:15:35 [error] [php] file_get_contents(http://cn.bing.com/HPImageArchive.aspx?idx=0&amp;n=1) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php:23)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\amp\yii\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#2 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#8 D:\amp\yii\framework\web\CWebApplication.php(282): UserController->run()
+#9 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/user/login
+in D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php (23)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/25 21:16:28 [error] [php] file_get_contents(http://cn.bing.com/HPImageArchive.aspx?idx=0&amp;n=1) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php:23)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\amp\yii\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#2 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#8 D:\amp\yii\framework\web\CWebApplication.php(282): UserController->run()
+#9 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/user/login
+in D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php (23)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/25 21:19:54 [error] [php] Undefined variable: str (D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php:25)
+Stack trace:
+#0 D:\amp\yii\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 D:\amp\yii\framework\web\CWebApplication.php(282): UserController->run()
+#8 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/user/login
+in D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php (25)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/25 21:19:57 [error] [php] Undefined variable: str (D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php:25)
+Stack trace:
+#0 D:\amp\yii\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 D:\amp\yii\framework\web\CWebApplication.php(282): UserController->run()
+#8 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/user/login
+in D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php (25)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/25 21:52:05 [error] [php] file_get_contents(http://cn.bing.com/HPImageArchive.aspx?idx=0&amp;n=1) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php:23)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\amp\yii\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#2 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#8 D:\amp\yii\framework\web\CWebApplication.php(282): UserController->run()
+#9 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/user/login
+in D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php (23)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/25 21:52:38 [error] [php] file_get_contents(http://cn.bing.com/HPImageArchive.aspx?idx=0&amp;n=1) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php:23)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\amp\yii\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#2 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#8 D:\amp\yii\framework\web\CWebApplication.php(282): UserController->run()
+#9 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/user/login
+in D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php (23)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/25 21:53:50 [error] [php] file_get_contents(http://cn.bing.com/HPImageArchive.aspx?idx=0&amp;n=1) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php:23)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\amp\yii\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#2 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#8 D:\amp\yii\framework\web\CWebApplication.php(282): UserController->run()
+#9 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/user/login
+in D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php (23)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/25 21:54:06 [error] [php] file_get_contents(http://cn.bing.com/HPImageArchive.aspx?idx=0&amp;n=1) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php:23)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\amp\yii\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#2 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#8 D:\amp\yii\framework\web\CWebApplication.php(282): UserController->run()
+#9 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/user/login
+in D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php (23)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/25 21:57:36 [error] [php] file_get_contents(http://cn.bing.com/HPImageArchive.aspx?idx=0&amp;n=1) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php:23)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\amp\yii\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#2 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#8 D:\amp\yii\framework\web\CWebApplication.php(282): UserController->run()
+#9 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/user/login
+in D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php (23)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/25 22:00:05 [error] [php] file_get_contents(http://cn.bing.com/HPImageArchive.aspx?idx=0&amp;n=1) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php:23)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\amp\yii\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#2 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#8 D:\amp\yii\framework\web\CWebApplication.php(282): UserController->run()
+#9 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/user/login
+in D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php (23)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/25 22:01:21 [error] [php] file_get_contents(http://cn.bing.com/HPImageArchive.aspx?idx=0&amp;n=1) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php:23)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\amp\yii\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#2 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#8 D:\amp\yii\framework\web\CWebApplication.php(282): UserController->run()
+#9 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/user/login
+in D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php (23)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/25 22:02:47 [error] [php] file_get_contents(http://cn.bing.com/HPImageArchive.aspx?idx=0&amp;n=1) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php:23)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\amp\yii\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#2 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#8 D:\amp\yii\framework\web\CWebApplication.php(282): UserController->run()
+#9 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/user/login
+in D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php (23)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/25 22:12:17 [error] [php] file_get_contents(http://cn.bing.com/HPImageArchive.aspx?idx=0&amp;n=1) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php:23)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\amp\yii\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#2 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#8 D:\amp\yii\framework\web\CWebApplication.php(282): UserController->run()
+#9 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/user/login
+in D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php (23)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/25 22:13:15 [error] [php] file_get_contents(http://cn.bing.com/HPImageArchive.aspx?idx=0&amp;n=1) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ (D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php:23)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\amp\yii\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#2 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#8 D:\amp\yii\framework\web\CWebApplication.php(282): UserController->run()
+#9 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/user/login
+in D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php (23)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/25 22:22:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\amp\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/')
+#3 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=admin/user/
+---
+2014/08/25 22:36:01 [error] [php] curl_setopt() expects exactly 3 parameters, 2 given (D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php:25)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\amp\yii\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#2 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#8 D:\amp\yii\framework\web\CWebApplication.php(282): UserController->run()
+#9 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/user/login
+in D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php (25)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/25 23:04:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/brand/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/brand/lis...')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/brand/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/26 00:26:32 [error] [php] Undefined index: item_brand_add_time (D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php:20)
+Stack trace:
+#0 D:\amp\yii\framework\web\filters\CFilterChain.php(133): BrandController->runAction()
+#1 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): BrandController->filterAccessControl()
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(265): BrandController->runActionWithFilters()
+#7 D:\amp\yii\framework\web\CWebApplication.php(282): BrandController->run()
+#8 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/brand/list
+in D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php (20)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/26 00:34:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/brand/list
+---
+2014/08/26 01:31:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/26 23:39:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/26 23:39:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/26 23:59:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/27 01:23:28 [error] [exception.CException] exception 'CException' with message 'Brand and its behaviors do not have a method or closure named "getAttributeLabels".' in D:\amp\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\amp\yii\framework\db\ar\CActiveRecord.php(227): CComponent->__call('getAttributeLab...', Array)
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php(30): CActiveRecord->__call('getAttributeLab...', Array)
+#2 D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php(30): Brand->getAttributeLabels()
+#3 D:\amp\yii\framework\web\actions\CInlineAction.php(49): BrandController->actionList()
+#4 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#13 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/brand/lis...')
+#14 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=admin/brand/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/index/index
+---
+2014/08/27 01:28:36 [error] [exception.CException] exception 'CException' with message 'Property "Brand.id" is not defined.' in D:\amp\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\amp\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php(14): CActiveRecord->__get('id')
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): BrandController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/brand/lis...')
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=admin/brand/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/index/index
+---
+2014/08/27 01:28:46 [error] [exception.CException] exception 'CException' with message 'Property "Brand.name" is not defined.' in D:\amp\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\amp\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php(14): CActiveRecord->__get('name')
+#2 D:\amp\yii\framework\web\actions\CInlineAction.php(49): BrandController->actionList()
+#3 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#12 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/brand/lis...')
+#13 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=admin/brand/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/index/index
+---
+2014/08/27 01:50:13 [error] [php] Undefined index: id (D:\amp\yii\yshop\protected\modules\admin\views\brand\brandList.php:34)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(869): BrandController->renderFile()
+#1 D:\amp\yii\framework\web\CController.php(782): BrandController->renderPartial()
+#2 D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php(37): BrandController->render()
+#3 D:\amp\yii\framework\web\actions\CInlineAction.php(49): BrandController->actionList()
+#4 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(133): BrandController->runAction()
+#6 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): BrandController->filterAccessControl()
+#9 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\amp\yii\framework\web\CController.php(265): BrandController->runActionWithFilters()
+#12 D:\amp\yii\framework\web\CWebApplication.php(282): BrandController->run()
+#13 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/brand/list
+in D:\amp\yii\yshop\protected\modules\admin\views\brand\brandList.php (34)
+in D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php (37)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/27 22:52:47 [error] [php] Undefined index: brand_logo (D:\amp\yii\yshop\protected\modules\admin\views\brand\brandList.php:27)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(869): BrandController->renderFile()
+#1 D:\amp\yii\framework\web\CController.php(782): BrandController->renderPartial()
+#2 D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php(26): BrandController->render()
+#3 D:\amp\yii\framework\web\actions\CInlineAction.php(49): BrandController->actionList()
+#4 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(133): BrandController->runAction()
+#6 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): BrandController->filterAccessControl()
+#9 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\amp\yii\framework\web\CController.php(265): BrandController->runActionWithFilters()
+#12 D:\amp\yii\framework\web\CWebApplication.php(282): BrandController->run()
+#13 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/brand/list
+in D:\amp\yii\yshop\protected\modules\admin\views\brand\brandList.php (27)
+in D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php (26)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/28 00:16:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/brand/index
+---
+2014/08/28 01:18:43 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%null% OR brand_english_name LIKE %null% LIMIT 10' at line 1. The SQL statement executed was: SELECT * FROM `ys_brand` `t` WHERE (brand_name LIKE %null% OR brand_english_name LIKE %null% LIMIT 10.
+in D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php (23)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/28 01:18:43 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%null% OR brand_english_name LIKE %null% LIMIT 10' at line 1. The SQL statement executed was: SELECT * FROM `ys_brand` `t` WHERE (brand_name LIKE %null% OR brand_english_name LIKE %null% LIMIT 10' in D:\amp\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\amp\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\amp\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 D:\amp\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php(23): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\amp\yii\framework\web\actions\CInlineAction.php(49): BrandController->actionList()
+#5 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#14 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/brand/lis...')
+#15 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=admin/brand/list&keywords=null&sortField=id&sortType=DESC&page=1&perPage=10
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/brand/index
+---
+2014/08/28 01:24:25 [error] [php] Undefined index: orderField (D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php:23)
+Stack trace:
+#0 D:\amp\yii\framework\web\filters\CFilterChain.php(133): BrandController->runAction()
+#1 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): BrandController->filterAccessControl()
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(265): BrandController->runActionWithFilters()
+#7 D:\amp\yii\framework\web\CWebApplication.php(282): BrandController->run()
+#8 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/brand/list&keywords=null&sortField=id&sortType=DESC&page=1&perPage=10
+in D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php (23)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/28 01:25:04 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'. The SQL statement executed was: SELECT * FROM `ys_brand` `t` WHERE 1=1 ORDER BY id DESC LIMIT 10.
+in D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php (26)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/28 01:25:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'. The SQL statement executed was: SELECT * FROM `ys_brand` `t` WHERE 1=1 ORDER BY id DESC LIMIT 10' in D:\amp\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\amp\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\amp\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 D:\amp\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php(26): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\amp\yii\framework\web\actions\CInlineAction.php(49): BrandController->actionList()
+#5 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#14 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/brand/lis...')
+#15 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=admin/brand/list&keywords=null&sortField=id&sortType=DESC&page=1&perPage=10
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/brand/index
+---
+2014/08/29 00:47:57 [error] [php] Undefined index: keywords (D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php:18)
+Stack trace:
+#0 D:\amp\yii\framework\web\filters\CFilterChain.php(133): BrandController->runAction()
+#1 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): BrandController->filterAccessControl()
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(265): BrandController->runActionWithFilters()
+#7 D:\amp\yii\framework\web\CWebApplication.php(282): BrandController->run()
+#8 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/brand/list
+in D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php (18)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/29 02:40:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/29 02:43:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/29 02:48:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/30 18:13:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/30 18:31:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/30 19:14:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "edit".' in D:\amp\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(270): CController->missingAction('edit')
+#1 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#2 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/brand/edi...')
+#3 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=admin/brand/edit&id=2
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/brand/index
+---
+2014/08/30 19:17:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/brand/index
+---
+2014/08/30 20:20:00 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%kk% OR brand_english_name LIKE %kk% ORDER BY brand_id DESC LIMIT 5' at line 1. The SQL statement executed was: SELECT * FROM `ys_brand` `t` WHERE (brand_name LIKE %kk% OR brand_english_name LIKE %kk% ORDER BY brand_id DESC LIMIT 5.
+in D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php (26)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/30 20:20:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%kk% OR brand_english_name LIKE %kk% ORDER BY brand_id DESC LIMIT 5' at line 1. The SQL statement executed was: SELECT * FROM `ys_brand` `t` WHERE (brand_name LIKE %kk% OR brand_english_name LIKE %kk% ORDER BY brand_id DESC LIMIT 5' in D:\amp\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\amp\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\amp\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 D:\amp\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php(26): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\amp\yii\framework\web\actions\CInlineAction.php(49): BrandController->actionList()
+#5 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#14 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/brand/lis...')
+#15 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=admin/brand/list&keywords=kk&sortField=id&sortType=DESC&page=1&perPage=5
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/brand/index
+---
+2014/08/30 20:21:46 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%kk% OR brand_english_name LIKE %kk% ORDER BY brand_id DESC LIMIT 5' at line 1. The SQL statement executed was: SELECT * FROM `ys_brand` `t` WHERE (brand_name LIKE %kk% OR brand_english_name LIKE %kk% ORDER BY brand_id DESC LIMIT 5.
+in D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php (26)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/30 20:21:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%kk% OR brand_english_name LIKE %kk% ORDER BY brand_id DESC LIMIT 5' at line 1. The SQL statement executed was: SELECT * FROM `ys_brand` `t` WHERE (brand_name LIKE %kk% OR brand_english_name LIKE %kk% ORDER BY brand_id DESC LIMIT 5' in D:\amp\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\amp\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\amp\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 D:\amp\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php(26): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\amp\yii\framework\web\actions\CInlineAction.php(49): BrandController->actionList()
+#5 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#14 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/brand/lis...')
+#15 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=admin/brand/list&keywords=kk&sortField=id&sortType=DESC&page=1&perPage=5
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/brand/index
+---
+2014/08/30 20:22:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%kk% OR brand_english_name LIKE %kk% ORDER BY brand_id DESC LIMIT 5' at line 1. The SQL statement executed was: SELECT * FROM `ys_brand` `t` WHERE (brand_name LIKE %kk% OR brand_english_name LIKE %kk% ORDER BY brand_id DESC LIMIT 5.
+in D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php (26)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/30 20:22:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%kk% OR brand_english_name LIKE %kk% ORDER BY brand_id DESC LIMIT 5' at line 1. The SQL statement executed was: SELECT * FROM `ys_brand` `t` WHERE (brand_name LIKE %kk% OR brand_english_name LIKE %kk% ORDER BY brand_id DESC LIMIT 5' in D:\amp\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\amp\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\amp\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 D:\amp\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php(26): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\amp\yii\framework\web\actions\CInlineAction.php(49): BrandController->actionList()
+#5 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#14 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/brand/lis...')
+#15 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=admin/brand/list&keywords=kk&sortField=id&sortType=DESC&page=1&perPage=5
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/brand/index
+---
+2014/08/30 20:26:03 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY brand_id DESC LIMIT 5' at line 1. The SQL statement executed was: SELECT * FROM `ys_brand` `t` WHERE (brand_name LIKE '%kk%' OR brand_english_name LIKE '%kk%' ORDER BY brand_id DESC LIMIT 5.
+in D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php (26)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/30 20:26:03 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY brand_id DESC LIMIT 5' at line 1. The SQL statement executed was: SELECT * FROM `ys_brand` `t` WHERE (brand_name LIKE '%kk%' OR brand_english_name LIKE '%kk%' ORDER BY brand_id DESC LIMIT 5' in D:\amp\yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\amp\yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\amp\yii\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 D:\amp\yii\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php(26): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\amp\yii\framework\web\actions\CInlineAction.php(49): BrandController->actionList()
+#5 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('list')
+#14 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/brand/lis...')
+#15 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=admin/brand/list&keywords=kk&sortField=id&sortType=DESC&page=1&perPage=5
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/brand/index
+---
