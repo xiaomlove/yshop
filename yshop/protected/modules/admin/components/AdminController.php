@@ -1,6 +1,24 @@
 <?php
 class AdminController extends Controller
 {
+	public $leftMenu = array();
+	public $breadcrumbs = array(
+		'主页'=>array('index/index'),
+	);
+	
+	public function init()
+	{
+		$this->leftMenu = Tool::getAdminMenuArray();
+		
+	}
+	
+//	不知为何重写__construct不行，另外使用beforeAction应该也行
+// 	public function __construct($id)
+// 	{
+// 		$this->leftMenu = Tool::getAdminMenuArray();
+// 		parent::__construct($id);
+// 	}
+
 	//方法过滤器
 	public function filters()
 	{

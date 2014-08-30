@@ -1,8 +1,5 @@
 
 <div class="row">
-	<div class="col-xs-12">
-		<h3 class="">商品分类</h3>
-	</div>
 	<div class="col-xs-12 category-list">
 		<div class="">
 			<button class="btn btn-primary btn-xs" id="add-category"><i class="fa fa-plus"></i>添加分类</button>

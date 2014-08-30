@@ -217,18 +217,3 @@ $("#saveCategorySort").click(function(){
 
 })
 
-function showLoading(){
-	
-	$("#bgDiv, #loadingImg img").show();
-}
-function hideLoading(text){
-	
-	$("#bgDiv, #loadingImg img").hide();
-	if(text === true){			
-		$("#loadingImg .saveSuccess").show().fadeOut(1500, function(){
-			$(this).hide();				
-		});
-
-	}
-	
-}

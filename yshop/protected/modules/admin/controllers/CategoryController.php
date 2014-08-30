@@ -1,6 +1,19 @@
 <?php
 class CategoryController extends AdminController
 {
+	
+// 	public $breadcrumbs = array(
+// 		'主页'=>array('index/index'),
+// 		'商品管理',
+		
+// 	);
+
+	public function init()
+	{
+		$this->breadcrumbs[] = '商品管理';
+		parent::init(); 
+	}
+	
 	public function actionList()
 	{
 		$parentId = 0;
@@ -31,6 +44,8 @@ class CategoryController extends AdminController
 		//AR对象不能直接js_encode()，需要转换为数组或者用CJSON类
 // 		$jsonData = CJSON::encode($categoryList);
 // 		d($categoryList);die();
+		$this->breadcrumbs['商品分类'] = array('category/list');
+
 		if($parentId === 0)
 		{
 			$this->render('categoryList', array('categoryList'=>$categoryList));

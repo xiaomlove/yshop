@@ -28,7 +28,7 @@
 		
 		<div class="row">
 			<div class="col-xs-2 left">
-				<ul class="list-unstyled">
+				<ul class="list-unstyled" id="left-menu">
 					<li><span><i class="fa fa-list-ul"></i></span></li>
 					<li>
 						<a  href="<?php echo $this->createUrl('index/index')?>">
@@ -36,83 +36,39 @@
 							<span>主页</span>
 						</a>
 					</li>
+					<?php if(count($this->leftMenu)):?>
+					<?php foreach($this->leftMenu as $menu):?>
 					<li>
 						<a>
 							<i class="fa fa-archive"></i>
-							<span>商品管理</span>
+							<span><?php echo $menu['title']?></span>
 							<span class="drop-icon"><i class="fa fa-chevron-left"></i></span>
 						</a>
+						<?php if(count($menu['subMenu'])):?>
 						<ul class="list-unstyled">
-							<li><a href="<?php echo $this->createUrl('category/list')?>">商品分类</a></li>
-							<li><a href="#">商品列表</a></li>
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							
+							<?php foreach($menu['subMenu'] as $subMenu):?>
+							<li class="<?php echo $subMenu['model'] == $this->id? 'menu-active': ''?>"><a href="<?php echo $this->createUrl($subMenu['model'].'/'.$subMenu['action'])?>"><?php echo $subMenu['title']?></a></li>
+							<?php endForeach?>
 						</ul>
+						<?php endIf?>
 					</li>
-					<li>
-						<a>
-							<i class="fa fa-user"></i>
-							<span>用户管理</span>
-							<span class="drop-icon"><i class="fa fa-chevron-left"></i></span>
-						</a>
-						<ul class="list-unstyled">
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							
-						</ul>
-					</li>
-					<li>
-						<a>
-							<i class="fa fa-list-alt"></i>
-							<span>订单管理</span>
-							<span class="drop-icon"><i class="fa fa-chevron-left"></i></span>
-						</a>
-						<ul class="list-unstyled">
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							
-						</ul>
-					</li>
-					<li>
-						<a>
-							<i class="fa fa-gear"></i>
-							<span>设置</span>
-							<span class="drop-icon"><i class="fa fa-chevron-left"></i></span>
-						</a>
-						<ul class="list-unstyled">
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							<li><a>子菜单</a></li>
-							
-						</ul>
-					</li>
-					
+					<?php endForeach?>
+					<?php endIf?>
 					
 				</ul>
 			</div>
 			<div class="col-xs-offset-2 col-xs-10 main">
+			
+			<?php 
+				if(count($this->breadcrumbs))
+				{
+					$this->widget('zii.widgets.CBreadcrumbs', array(
+						'links' => $this->breadcrumbs,
+						'homeLink'=>false,
+					));
+				}			
+			?>
+			
 			<?php echo $content?>
 			</div>
 		

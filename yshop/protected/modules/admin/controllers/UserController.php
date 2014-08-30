@@ -19,12 +19,21 @@ class UserController extends AdminController
 	}
 	public function actionLogin()
 	{
-		//获取bing每日图片作为背景
-		$str = file_get_contents('http://cn.bing.com/HPImageArchive.aspx?idx=0&n=1');
+		
+// 		$str = file_get_contents('http://cn.bing.com/HPImageArchive.aspx?idx=0&n=1');
+		//换curl也一样的不稳定，有什么好办法读取，设置个超时时间吧
+		$curl = curl_init();
+		curl_setopt($curl, CURLOPT_TIMEOUT, 3);
+		curl_setopt($curl, CURLOPT_URL, 'http://cn.bing.com/HPImageArchive.aspx?idx=0&n=1');
+		curl_setopt($curl, CURLOPT_HEADER, 1);
+		curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+		$str = curl_exec($curl);
+		
 		$imgurl = '';
 		if(preg_match("/<url>(.+?)<\/url>/ies", $str, $matches)){
 			$imgurl = 'http://cn.bing.com'.$matches[1];
 		}
+		
 		$loginForm = new LoginForm();
 		if(isset($_POST['LoginForm']))
 		{

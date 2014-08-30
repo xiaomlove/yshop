@@ -20,11 +20,13 @@
 .left ul ul{display:none;}
 .user-info{float:right;margin-right:5%;color:#f7f7f7;margin-top:1%;}
 .user-info li{margin-right: 5px}
-
 .user-info li a{color:#eee;text-decoration:none;cursor:pointer;}
+.menu-active{background-color:#999966}
+.menu-active a{font-weight:bold !important;color:#fff !important}
 
 /*主页面 */
 .main{margin-top:4%;}
+.breadcrumbs{font-size:20px;margin:10px 0 15px 0}
 
 /*欢迎首页*/
 .page-header{border:0}
@@ -92,12 +94,17 @@
 .sort-moving{background-color:#ddd;width:100%;height:40px}
 
 
-
-
-
-
-
-
+/*品牌  */
+.before-table{margin-bottom:15px}
+.action-table{height:35px}
+.action-href a{margin:0 5px}
+.pagination{margin:0}
+.pagination li{cursor:pointer}
+.record-number{line-height:36px}
+.per-page{display:inline-block;margin-right:10px}
+#record-number span{font-size:18px;font-weight:bold;margin:0 2px}
+.search-icon{right:20px;position:relative;cursor:pointer}
+.goto{display:inline-block;float:right;margin-left:5px;margin-top:6px;line-height:18px}
 
 /*后台尾部  */
 .foot{text-align:center;height:50px;line-height:50px;width:100%;position:absolute}

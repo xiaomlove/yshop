@@ -2,10 +2,14 @@
 
 class IndexController extends AdminController
 {
-
+	public function beforeAction($action)
+	{
+		array_shift($this->breadcrumbs);
+		return true;
+	}
 	public function actionIndex()
 	{
-// 		d(Yii::app()->getConfig('navMenu'));//怎么无法使用getConfig()
+// 		d($this->leftMenu);exit;
 		$this->render('index');
 	}
 }
