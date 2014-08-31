@@ -20,4 +20,7 @@ define('GENDER_MAN', 1);
 define('GENDER_WOMAN', 2);
 define('GENDER_UNKNOWN', 3);
 
-/*用户角色类型  */
+/*ajax删除返回信息  */
+define('PARAM_ERROR', '参数错误');
+define('NOT_EXIST', '目标不存在');
+define('ACTION_FAILED', '执行失败');

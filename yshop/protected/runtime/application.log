@@ -6810,3 +6810,401 @@ Stack trace:
 REQUEST_URI=/index.php?r=admin/brand/list&keywords=kk&sortField=id&sortType=DESC&page=1&perPage=5
 HTTP_REFERER=http://www.yshop.com/index.php?r=admin/brand/index
 ---
+2014/08/31 04:02:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/31 04:02:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/item/list".' in D:\amp\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/item/list')
+#1 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=admin/item/list
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/category/list
+---
+2014/08/31 14:39:33 [error] [exception.CException] exception 'CException' with message 'BrandController cannot find the requested view "editBrand".' in D:\amp\yii\framework\web\CController.php:878
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(782): CController->renderPartial('editBrand', Array, true)
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php(49): CController->render('editBrand', Array)
+#2 [internal function]: BrandController->actionEdit('12')
+#3 D:\amp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(BrandController), Array)
+#4 D:\amp\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BrandController), Object(ReflectionMethod), Array)
+#5 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#14 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/brand/edi...')
+#15 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=admin/brand/edit&id=12
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/brand/index
+---
+2014/08/31 14:43:46 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\amp\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#9 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/brand/edi...')
+#10 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=admin/brand/edit
+---
+2014/08/31 14:43:59 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\amp\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#9 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/brand/edi...')
+#10 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=admin/brand/edit&
+---
+2014/08/31 14:44:03 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\amp\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#9 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/brand/edi...')
+#10 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=admin/brand/edit&d
+---
+2014/08/31 15:02:58 [error] [php] Use of undefined constant brand_english_name - assumed 'brand_english_name' (D:\amp\yii\yshop\protected\modules\admin\views\brand\brandEdit.php:15)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(869): BrandController->renderFile()
+#1 D:\amp\yii\framework\web\CController.php(782): BrandController->renderPartial()
+#2 D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php(52): BrandController->render()
+#3 unknown(0): BrandController->actionEdit()
+#4 D:\amp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 D:\amp\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\amp\yii\framework\web\filters\CFilterChain.php(133): BrandController->runAction()
+#8 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#10 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): BrandController->filterAccessControl()
+#11 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 D:\amp\yii\framework\web\CController.php(265): BrandController->runActionWithFilters()
+#14 D:\amp\yii\framework\web\CWebApplication.php(282): BrandController->run()
+#15 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/brand/edit&id=12
+in D:\amp\yii\yshop\protected\modules\admin\views\brand\brandEdit.php (15)
+in D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php (52)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/31 15:05:08 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\amp\yii\framework\web\CController.php:336
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#9 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/brand/edi...')
+#10 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php?r=admin/brand/edit&0%5Bid%5D=12
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/brand/edit&id=12
+---
+2014/08/31 15:15:33 [error] [php] Trying to get property of non-object (D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php:51)
+Stack trace:
+#0 D:\amp\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\amp\yii\framework\web\filters\CFilterChain.php(133): BrandController->runAction()
+#3 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): BrandController->filterAccessControl()
+#6 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\amp\yii\framework\web\CController.php(265): BrandController->runActionWithFilters()
+#9 D:\amp\yii\framework\web\CWebApplication.php(282): BrandController->run()
+#10 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/brand/edit&id=12
+in D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php (51)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/31 15:17:25 [error] [php] Attempt to assign property of non-object (D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php:51)
+Stack trace:
+#0 D:\amp\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\amp\yii\framework\web\filters\CFilterChain.php(133): BrandController->runAction()
+#3 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): BrandController->filterAccessControl()
+#6 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\amp\yii\framework\web\CController.php(265): BrandController->runActionWithFilters()
+#9 D:\amp\yii\framework\web\CWebApplication.php(282): BrandController->run()
+#10 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/brand/edit&id=12
+in D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php (51)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/31 15:18:07 [error] [php] Trying to get property of non-object (D:\amp\yii\yshop\protected\modules\admin\views\brand\brandEdit.php:7)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(869): BrandController->renderFile()
+#1 D:\amp\yii\framework\web\CController.php(782): BrandController->renderPartial()
+#2 D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php(58): BrandController->render()
+#3 unknown(0): BrandController->actionEdit()
+#4 D:\amp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#5 D:\amp\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\amp\yii\framework\web\filters\CFilterChain.php(133): BrandController->runAction()
+#8 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#10 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): BrandController->filterAccessControl()
+#11 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 D:\amp\yii\framework\web\CController.php(265): BrandController->runActionWithFilters()
+#14 D:\amp\yii\framework\web\CWebApplication.php(282): BrandController->run()
+#15 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/brand/edit&id=12
+in D:\amp\yii\yshop\protected\modules\admin\views\brand\brandEdit.php (7)
+in D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php (58)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/31 15:22:42 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "textareaField".' in D:\amp\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\amp\yii\yshop\protected\modules\admin\views\brand\brandEdit.php(37): CComponent->__call('textareaField', Array)
+#1 D:\amp\yii\yshop\protected\modules\admin\views\brand\brandEdit.php(37): CActiveForm->textareaField(Object(Brand), 'brand_descripti...', Array)
+#2 D:\amp\yii\framework\web\CBaseController.php(126): require('D:\amp\yii\ysho...')
+#3 D:\amp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\amp\yii\ysho...', Array, true)
+#4 D:\amp\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\amp\yii\ysho...', Array, true)
+#5 D:\amp\yii\framework\web\CController.php(782): CController->renderPartial('brandEdit', Array, true)
+#6 D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php(52): CController->render('brandEdit', Array)
+#7 [internal function]: BrandController->actionEdit('9')
+#8 D:\amp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(BrandController), Array)
+#9 D:\amp\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BrandController), Object(ReflectionMethod), Array)
+#10 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#19 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/brand/edi...')
+#20 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=admin/brand/edit&id=9
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/brand/edit&id=9
+---
+2014/08/31 15:24:41 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "textAreaField".' in D:\amp\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\amp\yii\yshop\protected\modules\admin\views\brand\brandEdit.php(37): CComponent->__call('textAreaField', Array)
+#1 D:\amp\yii\yshop\protected\modules\admin\views\brand\brandEdit.php(37): CActiveForm->textAreaField(Object(Brand), 'brand_descripti...', Array)
+#2 D:\amp\yii\framework\web\CBaseController.php(126): require('D:\amp\yii\ysho...')
+#3 D:\amp\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\amp\yii\ysho...', Array, true)
+#4 D:\amp\yii\framework\web\CController.php(869): CBaseController->renderFile('D:\amp\yii\ysho...', Array, true)
+#5 D:\amp\yii\framework\web\CController.php(782): CController->renderPartial('brandEdit', Array, true)
+#6 D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php(52): CController->render('brandEdit', Array)
+#7 [internal function]: BrandController->actionEdit('9')
+#8 D:\amp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(BrandController), Array)
+#9 D:\amp\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BrandController), Object(ReflectionMethod), Array)
+#10 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#19 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/brand/edi...')
+#20 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php?r=admin/brand/edit&id=9
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/brand/edit&id=9
+---
+2014/08/31 16:28:02 [warning] [application] Failed to set unsafe attribute "user_real_name" of "User".
+in D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php (82)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/31 16:28:10 [warning] [application] Failed to set unsafe attribute "user_real_name" of "User".
+in D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php (82)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/31 16:29:03 [warning] [application] Failed to set unsafe attribute "user_real_name" of "User".
+in D:\amp\yii\yshop\protected\modules\admin\controllers\UserController.php (82)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/31 16:33:47 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'brand_add_time' at row 1. The SQL statement executed was: UPDATE `ys_brand` SET `brand_name`=:yp0, `brand_english_name`=:yp1, `brand_logo_img`=:yp2, `brand_home_url`=:yp3, `brand_description`=:yp4, `brand_add_time`=:yp5, `brand_modify_time`=:yp6 WHERE `ys_brand`.`brand_id`=12. Bound with :yp0='酷派', :yp1='Kupai', :yp2='', :yp3='', :yp4='低调、低调。。。', :yp5='2014-08-26 00:21', :yp6='2014-08-26 00:21'.
+in D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php (53)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/31 16:33:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'brand_add_time' at row 1. The SQL statement executed was: UPDATE `ys_brand` SET `brand_name`=:yp0, `brand_english_name`=:yp1, `brand_logo_img`=:yp2, `brand_home_url`=:yp3, `brand_description`=:yp4, `brand_add_time`=:yp5, `brand_modify_time`=:yp6 WHERE `ys_brand`.`brand_id`=12. Bound with :yp0='酷派', :yp1='Kupai', :yp2='', :yp3='', :yp4='低调、低调。。。', :yp5='2014-08-26 00:21', :yp6='2014-08-26 00:21'' in D:\amp\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\amp\yii\framework\db\ar\CActiveRecord.php(1748): CDbCommand->execute()
+#1 D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php(53): CActiveRecord->updateByPk('12', Array)
+#2 [internal function]: BrandController->actionEdit('12')
+#3 D:\amp\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(BrandController), Array)
+#4 D:\amp\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BrandController), Object(ReflectionMethod), Array)
+#5 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#14 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/brand/edi...')
+#15 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#17 {main}
+REQUEST_URI=/index.php?r=admin/brand/edit&id=12
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/brand/edit&id=12
+---
+2014/08/31 16:46:30 [error] [php] Undefined index: brand_add_time (D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php:53)
+Stack trace:
+#0 D:\amp\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\amp\yii\framework\web\filters\CFilterChain.php(133): BrandController->runAction()
+#3 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): BrandController->filterAccessControl()
+#6 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\amp\yii\framework\web\CController.php(265): BrandController->runActionWithFilters()
+#9 D:\amp\yii\framework\web\CWebApplication.php(282): BrandController->run()
+#10 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/brand/edit&id=12
+in D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php (53)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/31 16:59:06 [error] [php] Undefined variable: brandInfo (D:\amp\yii\yshop\protected\modules\admin\views\brand\brandForm.php:7)
+Stack trace:
+#0 D:\amp\yii\framework\web\CController.php(869): BrandController->renderFile()
+#1 D:\amp\yii\framework\web\CController.php(782): BrandController->renderPartial()
+#2 D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php(89): BrandController->render()
+#3 D:\amp\yii\framework\web\actions\CInlineAction.php(49): BrandController->actionadd()
+#4 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(133): BrandController->runAction()
+#6 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): BrandController->filterAccessControl()
+#9 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\amp\yii\framework\web\CController.php(265): BrandController->runActionWithFilters()
+#12 D:\amp\yii\framework\web\CWebApplication.php(282): BrandController->run()
+#13 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/brand/add
+in D:\amp\yii\yshop\protected\modules\admin\views\brand\brandForm.php (7)
+in D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php (89)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/31 17:31:13 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'brand_add_time' at row 1. The SQL statement executed was: INSERT INTO `ys_brand` (`brand_name`, `brand_english_name`, `brand_logo_img`, `brand_home_url`, `brand_description`, `brand_add_time`, `brand_modify_time`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6). Bound with :yp0='中兴', :yp1='zhongxing', :yp2='', :yp3='', :yp4='', :yp5='', :yp6=''.
+in D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php (80)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/31 17:31:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'brand_add_time' at row 1. The SQL statement executed was: INSERT INTO `ys_brand` (`brand_name`, `brand_english_name`, `brand_logo_img`, `brand_home_url`, `brand_description`, `brand_add_time`, `brand_modify_time`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6). Bound with :yp0='中兴', :yp1='zhongxing', :yp2='', :yp3='', :yp4='', :yp5='', :yp6=''' in D:\amp\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\amp\yii\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 D:\amp\yii\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php(80): CActiveRecord->save()
+#3 D:\amp\yii\framework\web\actions\CInlineAction.php(49): BrandController->actionAdd()
+#4 D:\amp\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\amp\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\amp\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\amp\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\amp\yii\framework\web\CWebApplication.php(282): CController->run('add')
+#13 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/brand/add')
+#14 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\amp\yii\yshop\index.php(22): CApplication->run()
+#16 {main}
+REQUEST_URI=/index.php?r=admin/brand/add
+HTTP_REFERER=http://www.yshop.com/index.php?r=admin/brand/add
+---
+2014/08/31 18:19:31 [error] [php] Undefined index: keywords (D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php:18)
+Stack trace:
+#0 D:\amp\yii\framework\web\filters\CFilterChain.php(133): BrandController->runAction()
+#1 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): BrandController->filterAccessControl()
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(265): BrandController->runActionWithFilters()
+#7 D:\amp\yii\framework\web\CWebApplication.php(282): BrandController->run()
+#8 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/brand/list
+in D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php (18)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/31 18:19:59 [error] [php] Undefined index: keywords (D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php:18)
+Stack trace:
+#0 D:\amp\yii\framework\web\filters\CFilterChain.php(133): BrandController->runAction()
+#1 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): BrandController->filterAccessControl()
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(265): BrandController->runActionWithFilters()
+#7 D:\amp\yii\framework\web\CWebApplication.php(282): BrandController->run()
+#8 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/brand/list
+in D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php (18)
+in D:\amp\yii\yshop\index.php (22)
+2014/08/31 18:20:01 [error] [php] Undefined index: keywords (D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php:18)
+Stack trace:
+#0 D:\amp\yii\framework\web\filters\CFilterChain.php(133): BrandController->runAction()
+#1 D:\amp\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\amp\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\amp\yii\framework\web\filters\CInlineFilter.php(58): BrandController->filterAccessControl()
+#4 D:\amp\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\amp\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\amp\yii\framework\web\CController.php(265): BrandController->runActionWithFilters()
+#7 D:\amp\yii\framework\web\CWebApplication.php(282): BrandController->run()
+#8 D:\amp\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\amp\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\amp\yii\yshop\index.php(22): CWebApplication->run()
+REQUEST_URI=/index.php?r=admin/brand/list
+in D:\amp\yii\yshop\protected\modules\admin\controllers\BrandController.php (18)
+in D:\amp\yii\yshop\index.php (22)

@@ -4,7 +4,7 @@ $(function(){
 	leftNav();
 	expandActiveMenu();
 	logout();
-})
+});
 
 
 function leftNav() {

@@ -22,6 +22,15 @@ $(".search").delegate("i", "click", function(){
 	}
 });
 
+$("#select-all").click(function(){
+	var $checkbox = $("#tbody").find(".my-checkbox");
+	if($(this).prop("checked")){
+		$checkbox.prop("checked", true);
+	}else{
+		$checkbox.prop("checked", false);
+	}
+});
+
 
 
 function getData(dataUrl, page, sortField, sortType){
@@ -37,6 +46,7 @@ function getData(dataUrl, page, sortField, sortType){
 		url: arguments[0],
 		data: 'keywords='+keywords+'&sortField='+sortField+'&sortType='+sortType+'&page='+page+'&perPage='+perPage,
 		type: 'GET',
+		async: false,
 		dataType: 'html',
 		success: function(data){
 			$("#tbody").html(data);

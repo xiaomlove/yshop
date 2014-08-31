@@ -105,6 +105,10 @@
 #record-number span{font-size:18px;font-weight:bold;margin:0 2px}
 .search-icon{right:20px;position:relative;cursor:pointer}
 .goto{display:inline-block;float:right;margin-left:5px;margin-top:6px;line-height:18px}
+.table .my-checkbox{margin-right:30px;display:inline}
+.action-table i{margin-right:5px}
+.brand-logo-img{height:34px;border:1px solid red;margin-left:0}
+
 
 /*后台尾部  */
 .foot{text-align:center;height:50px;line-height:50px;width:100%;position:absolute}

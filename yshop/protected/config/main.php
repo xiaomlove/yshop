@@ -57,12 +57,9 @@ return array(
 		
 		'db'=>array(
 			'connectionString' => 'mysql:host=127.0.0.1;dbname=ys_shop',
-//  		'connectionString' => 'mysql:host=sqld.duapp.com:4050;dbname=pSwpmyKuNxVciRBqTDGc',
 			'emulatePrepare' => true,
 			'username' => 'root',
-//  		'username' => 'ZRHZW51bbClBHjs1GBHBaq7g',
 			'password' => '123456',
-//  		'password' => 'IcG0i66CzQcAqwFriO6LNUkNIRjKGDSt',
 			'charset' => 'utf8',
 			'tablePrefix' => 'ys_',
 			'enableParamLogging' => 'true',

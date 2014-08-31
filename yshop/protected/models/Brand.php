@@ -29,37 +29,38 @@ class Brand extends CActiveRecord
 	}
 	
 	//验证之前先判断是否为空
+	/*
 	public function beforeValidate()
 	{
 		$flag = true;
-		if(trim($this->user_qq) != '')
+		if(trim($this->brand_qq) != '')
 		{
-			if(!preg_match('/^\d{5,12}$/', trim($this->user_qq)))
+			if(!preg_match('/^\d{5,12}$/', trim($this->brand_qq)))
 			{
-				$this->addError('user_qq', '请填写正确的QQ号码');
+				$this->addError('brand_qq', '请填写正确的QQ号码');
 				$flag = false;
 			}
 		}
-		if(trim($this->user_phone) != '')
+		if(trim($this->brand_phone) != '')
 		{
-			if(!preg_match('/^1\d{10}$/', trim($this->user_phone)))
+			if(!preg_match('/^1\d{10}$/', trim($this->brand_phone)))
 			{
-				$this->addError('user_phone', '请填写正确的手机号码');
+				$this->addError('brand_phone', '请填写正确的手机号码');
 				$flag = false;
 			}
 		}
 		
-		if(($new_user_password = trim($this->new_user_password)) != '')
+		if(($new_brand_password = trim($this->new_brand_password)) != '')
 		{
-			if(preg_match('/\w{6,12}/', $new_user_password))
+			if(preg_match('/\w{6,12}/', $new_brand_password))
 			{
-				if($new_user_password !== trim($this->re_new_user_password))
+				if($new_brand_password !== trim($this->re_new_brand_password))
 				{
-					$this->addError('re_new_user_password', '确认密码必须与新密码一致');
+					$this->addError('re_new_brand_password', '确认密码必须与新密码一致');
 					$flag = false;
 				} 
 			} else {
-				$this->addError('new_user_password', '密码为6~12位的数字字母下划线');
+				$this->addError('new_brand_password', '密码为6~12位的数字字母下划线');
 				$flag = false;	
 			}
 			
@@ -72,33 +73,18 @@ class Brand extends CActiveRecord
 		}
 
 	}
-	
+	*/
 	public function rules()
 	{
 		return array(
-				array('user_name', 'required',  'message' => '用户名不能为空'),
-				array('user_password', 'required', 'message' => '密码不能为空'),
-				array('new_user_password', 'safe'),
-				array('re_new_user_password', 'safe'),
-				array('user_password', 'checkPassword', 'on' => 'editProfile'),
-				array('user_qq', 'safe'),//安全字段，不设置无法被赎值，无法在beforeValidate中验证
-				array('user_phone', 'safe'),
-				array('user_birthday', 'safe'),
-				
+				array('brand_name', 'required',  'message' => '品牌名不能为空'),
+				array('brand_name', 'unique', 'on'=>'add', 'message' => '该品牌名已经存在'),
+				array('brand_english_name', 'required', 'message' => '品牌英文名不能为空'),
+				array('brand_english_name', 'unique', 'on'=>'add', 'message' => '该英文名已经存在'),
+				array('brand_logo_img, brand_home_url, brand_description, brand_add_time, brand_modify_time', 'safe'),
 		);
 		
 	}
 	
-	public function checkPassword()
-	{
-		$userInfo = $this->findByPk(Yii::app()->user->id);//模型内直接$this为当前模型
-
-		$user_salt = $userInfo->user_salt;
-		$user_password = $userInfo->user_password;
-		
-		if(md5(md5($user_salt).$this->user_password) !== $userInfo->user_password)
-		{
-			$this->addError('user_password', '密码不正确');
-		}
-	}
+	
 }

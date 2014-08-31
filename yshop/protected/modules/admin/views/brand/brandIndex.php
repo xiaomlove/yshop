@@ -8,15 +8,15 @@
 					<option value="50">50</option>					
 				</select>
 			</div>
-			<div class="btn btn-primary btn-xs" id="add-brand"><i class="fa fa-plus"></i>添加品牌</div>
-			<div class="btn btn-primary btn-xs" id=""><i class="fa fa-plus"></i>保存更改</div>
+			<div class="btn btn-primary btn-xs" id="add-brand"><i class="fa fa-minus"></i>批量删除</div>
+			<a class="btn btn-primary btn-xs" id="" href="<?php echo $this->createUrl('brand/add')?>"><i class="fa fa-plus"></i>添加品牌</a>
 			
 			<div class="pull-right search"><input type="text" name="search" id="search" placeholder="搜索"><i class="fa fa-search search-icon"></i></div>
 		</div>
 		<table class="table table-bordered" id="table">
 			 <thead>
 		        <tr>
-		        	<th id="brand_logo">品牌logo</th>	   
+		        	<th id="brand_logo"><input type="checkbox" id="select-all" class="my-checkbox">品牌logo</th>	   
 		        	<th id="brand_name">品牌名称</th>	   
 		            <th id="brand_english_name">品牌英文名</th>	            
 		            <th id="brand_home_url">品牌官网</th>	            
@@ -43,9 +43,12 @@
 </div>
 <script type="text/javascript">
 	var dataUrl = "<?php echo $this->createUrl('brand/list')?>";
+	var deleteUrl = "<?php echo $this->createUrl('brand/delete')?>"
 	$(document).ready(function(){
 		getData(dataUrl);
 		sortField('brand_name', 'brand_english_name');
+		ajaxDelete();
 	});	
 </script>
 <script type="text/javascript" src="<?php echo ADMIN_JS_URL?>table.js"></script>
+<script type="text/javascript" src="<?php echo ADMIN_JS_URL?>brand.js"></script>
