@@ -23,7 +23,7 @@
 		      <?php echo $form->fileField($brandModel, 'brand_logo_img', array('class' => 'form-control', 'id' => 'brand_logo_img', 'value' => $brandModel->brand_logo_img))?>
 		    </div>
 		    <?php echo $form->error($brandModel, 'brand_logo_img', array('class' => 'col-xs-6 col-xs-offset-2'))?>
-		    <div class="brand-logo-img col-xs-2 col-xs-offset-2"><img src=""></div>
+		    <div class="brand-logo-img col-xs-2 col-xs-offset-2" id="logo-preview"></div>
 		  </div>
 		  <div class="form-group"> 
 		    <?php echo $form->labelEx($brandModel, 'brand_home_url', array('class' => 'col-sm-2 control-label'))?>
@@ -63,6 +63,35 @@
 	</div>
 </div>
 <script type="text/javascript">
+imgPreviewUpload('brand_logo_img', 'logo-preview');
+// 	$("#brand_logo_img").change(function(){
+// 		var url = getObjectURL(this.files[0]);
+// 		if(url){
+// 			$("#cancle-img").remove();
+// 			var $img = $("#img-preview");
+// 			var $div = $img.parent();
+// 			$img.attr("src", url).mouseover(function(){
+// 				if($div.find("#cancle-img").length<=0){
+// 					$(this).parent().append("<i class='fa fa-times fa-2x' id='cancle-img'></i>");
+// 					var $cancle = $("#cancle-img");
+// 					$cancle.css({
+// 						"color": "red",
+// 						"position": "absolute",
+// 						"top": "-15px",
+// 						"left": $img.outerWidth()+10+"px",
+// 						"cursor": "pointer"
+// 					}).click(function(){
+// 						$("#brand_logo_img").val('');
+// 						$img.attr("src", "");
+// 						$cancle.remove();
+								
+// 					})
+// 				}
+// 			})
+			
+// 		}else{
+// 			$("#brand_logo_img").val('');
+// 		}
+// 	});
 	
 </script>
-<script type="text/javascript" src=""></script>

@@ -56,6 +56,10 @@
 					<?php endIf?>
 					
 				</ul>
+				<script>
+				$("#left-menu").find(".menu-active").parent().addClass("open").slideDown()
+				.prev().find(".drop-icon").children("i").attr("class", "fa fa-chevron-down");
+				</script>
 			</div>
 			<div class="col-xs-offset-2 col-xs-10 main">
 			
