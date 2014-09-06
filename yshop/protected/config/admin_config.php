@@ -35,4 +35,6 @@ return array(
 			array('title'=>'用户列表', 'model'=>'user', 'action'=>'list'),
 		)),
 	),
+	'brandLogoImgType'=>array('jpg', 'jpeg'),
+	'brandLogoImgResize'=>1,//品牌logo图片上传是否裁切
 );

@@ -67,7 +67,7 @@
 			<ul class="category-sub-0">
 			<?php if(!empty($categoryList)):?>
 				<?php foreach($categoryList as $category):?>
-					<li id="<?php echo $category['item_category_id']?>" deep="<?php echo $category['item_category_deep']?>" path="<?php echo $category['item_category_path']?>" found = "0" sort = "<?php echo $category['item_category_sort']?>"><input type="checkbox"><span class="name"><i class="fa fa-caret-right"></i><?php echo $category['item_category_name']?></span><span><i class="fa fa-hand-o-up"></i></span><span><?php echo $category['item_category_add_time']?></span><span><a href="#">编辑</a><a href="#">查看</a><a href="#">删除</a></span></li>
+					<li id="<?php echo $category['item_category_id']?>" deep="<?php echo $category['item_category_deep']?>" path="<?php echo $category['item_category_path']?>" found = "0" sort = "<?php echo $category['item_category_sort']?>"><input type="checkbox"><span class="name"><i class="fa fa-caret-right"></i><?php echo $category['item_category_name']?></span><span><i class="fa fa-hand-o-up"></i></span><span><?php echo $category['item_category_add_time']?></span><span><a href="#">编辑</a><a href="<?php echo $this->createUrl('categorybrand/index', array('catId'=>$category['item_category_id']))?>">品牌</a><a href="#">商品</a><a href="#">删除</a></span></li>
 				<?php endForeach?>	
 			<?php endIf?>	
 			</ul>

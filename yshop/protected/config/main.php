@@ -39,6 +39,9 @@ return array(
 			'guestName' => '游客',
 			'loginUrl' => array('/admin/user/login'),//默认登陆页面，是前台，后台在具体模型里的基模型的init方法里设置
 		),
+		'thumb'=>array(
+			'class'=>'ext.cthumb.CThumb',
+		),
 		// uncomment the following to enable URLs in path-format
 		/*
 		'urlManager'=>array(

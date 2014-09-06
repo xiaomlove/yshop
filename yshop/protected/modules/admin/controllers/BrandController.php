@@ -60,14 +60,15 @@ class BrandController extends AdminController
 				$result = $brandModel->updateByPk($id, $_POST['Brand']);
 				if($result)
 				{
+					$this->_uploadLogoImg($brandModel);
 					Yii::app()->user->setFlash('success', '编辑成功');
 				}
 			}
 		}
-		
+// 		d($brandModel->attributes);exit;
 		$this->breadcrumbs['品牌列表'] = array('brand/index');
 		$this->breadcrumbs['编辑品牌信息'] = array('brand/edit', 'id'=>$id);
-		$this->render('brandForm', array('brandModel'=>$brandModel));
+		$this->render('brandForm', array('brandModel'=>$brandModel, 'action'=>'edit'));
 		
 	}
 	
@@ -85,6 +86,7 @@ class BrandController extends AdminController
 				$result = $brandModel->save();
 				if($result)
 				{
+					$this->_uploadLogoImg($brandModel);
 					Yii::app()->user->setFlash('success', '添加成功');
 				}
 			}
@@ -92,7 +94,7 @@ class BrandController extends AdminController
 	
 		$this->breadcrumbs['品牌列表'] = array('brand/index');
 		$this->breadcrumbs['添加品牌'] = array('brand/add');
-		$this->render('brandForm', array('brandModel'=>$brandModel));
+		$this->render('brandForm', array('brandModel'=>$brandModel, 'action'=>'add'));
 	
 	}
 	
@@ -107,6 +109,8 @@ class BrandController extends AdminController
 		{
 			if($brandInfo->delete())
 			{
+				@unlink(BRAND_LOGO_URL.$brandInfo->brand_english_name.'-thumb.jpg');
+				@unlink(BRAND_LOGO_URL.$brandInfo->brand_english_name.'-origin.jpg');
 				echo 1;
 			}else{
 				echo ACTION_FAILED;
@@ -114,5 +118,57 @@ class BrandController extends AdminController
 		}else{
 			echo NOT_EXIST;
 		}
+	}
+	
+	private function _uploadLogoImg($model)
+	{
+		$image = CUploadedFile::getInstance($model, 'brand_logo_img');
+		if(is_object(($image)) && get_class($image) == 'CUploadedFile' && in_array(substr($image->type, 6), Yii::getConfig('brandLogoImgType')))
+		{
+			if(!is_dir(BRAND_LOGO_URL))
+			{
+				mkdir(BRAND_LOGO_URL, 0777, TRUE);
+			}
+			$path = BRAND_LOGO_URL.$_POST['Brand']['brand_english_name'];
+// 			$suffix = substr($image->name, strrpos($image->name, '.'));
+			$suffix = '.jpg';
+			if($image->saveAs($path.'-origin'.$suffix) && Yii::getConfig('brandLogoImgResize'))
+			{
+				//生成缩略图
+				$thumb = Yii::app()->thumb;
+				$thumb->image = $path.'-origin'.$suffix;
+				$thumb->width = BRAND_LOGO_WIDTH;
+				$thumb->height = BRAND_LOGO_HEIGHT;
+				$thumb->mode = 4;
+				$thumb->directory = BRAND_LOGO_URL;
+				$thumb->defaultName = $_POST['Brand']['brand_english_name'].'-thumb';
+				$thumb->createThumb();
+				$thumb->save();
+			}
+		}
+	}
+	
+	public function actionDeleteLogoImg($name)
+	{
+		$fileOrigin = BRAND_LOGO_URL.$name.'-origin.jpg';
+		if(Yii::getConfig('brandLogoImgResize'))
+		{
+			$file = BRAND_LOGO_URL.$name.'-thumb.jpg';
+		}else{
+			$file = BRAND_LOGO_URL.$name.'-origin.jpg';
+		}
+		if(file_exists($file))
+		{
+			if(unlink($file))
+			{
+				@unlink($fileOrigin);
+				echo 1;
+			}else{
+				echo ACTION_FAILED;
+			}
+		}else{
+			echo NOT_EXIST;
+		}
+		
 	}
 }

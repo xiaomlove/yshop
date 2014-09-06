@@ -5,7 +5,7 @@ $("#search").on({
 	blur: function(){	
 		var keywords = $(this).val();
 		if($.trim(keywords) == '' && $("#searched").length){
-			getData(dataUrl,  $(".pagination").find(".active").children("a").text());
+			getData(dataUrl, 1, false, false, showPagination);
 			$("#searched").remove();
 		}
 		
@@ -18,7 +18,7 @@ $(".search").delegate("i", "click", function(){
 		if($("#searched").length < 1){
 			$(this).parent().append('<input type="hidden" id="searched" name="search">');
 		}
-		getData(dataUrl);
+		getData(dataUrl, false, false, false, showPagination);
 	}
 });
 
@@ -33,15 +33,15 @@ $("#select-all").click(function(){
 
 
 
-function getData(dataUrl, page, sortField, sortType){
+function getData(dataUrl, page, sortField, sortType, showPagination){
 	console.log(arguments);
 	var page = arguments[1]? arguments[1]: 1;
-	var perPage = $("#per-page").val();
+	var perPage = $("#per-page").length? $("#per-page").val(): 0;
 	var search = $.trim($("#search").val());
 	var keywords = search == ''? null: encodeURIComponent(search);
 	var sortField = arguments[2]? arguments[2]: 'id';
 	var sortType = arguments[3]? arguments[3]: 'DESC';
-	
+	var showPage = arguments[4]==undefined? true: arguments[4];
 	$.ajax({
 		url: arguments[0],
 		data: 'keywords='+keywords+'&sortField='+sortField+'&sortType='+sortType+'&page='+page+'&perPage='+perPage,
@@ -58,25 +58,27 @@ function getData(dataUrl, page, sortField, sortType){
 				count = 0;
 			}
 			
-			setCount(count, page, perPage);
+			setCount(count, page, perPage, showPage);
 		},
 	})
 	
 }
 
-function setCount(count, page, perPage){
+function setCount(count, page, perPage, showPagination){
+	
 	var count = parseInt(count);//总记录数
-	var page = parseInt(page);//当前页
-	var perPage = parseInt(perPage);//每页显示数
 	$("#total").text(count);
-	var totalPage = Math.ceil(count/perPage);//总页数
-	$("#totalPage").text(totalPage);
-	var begin = (page-1)*perPage+1;//
-	$("#begin").text(begin);
-	var end = begin + perPage -1 > count? count: begin + perPage - 1;	
-	$("#end").text(end);
+	if(showPagination){
+		var page = parseInt(page);//当前页
+		var perPage = parseInt(perPage);//每页显示数
+		var totalPage = Math.ceil(count/perPage);//总页数
+		$("#totalPage").text(totalPage);
+		var begin = (page-1)*perPage+1;//
+		$("#begin").text(begin);
+		var end = begin + perPage -1 > count? count: begin + perPage - 1;	
+		$("#end").text(end);
 
-//	if(count>=1){
+	
 		if(totalPage <= 10){
 			endPage = totalPage;
 			beginPage = 1;
@@ -167,7 +169,11 @@ function setCount(count, page, perPage){
 			})
 
 		}
-//	}
+	}else{
+		$("#totalPage").text(1);
+		$("#begin").text(1);
+		$("#end").text(count);
+	}
 	
 }
 
@@ -182,12 +188,12 @@ function sortField(){
 				return function(){
 					if($(this).attr("class") == "asc"){
 						$(this).parent().children("th").removeAttr("class").find("i").remove();//全部清除
-						getData(dataUrl, 1, sortField, "desc");
+						getData(dataUrl, 1, sortField, "desc", showPagination);
 						$(this).attr("class", "desc").append('<i class="fa fa-sort-desc" style="margin-left:5px"></i>');
 						
 					}else{
 						$(this).parent().children("th").removeAttr("class").find("i").remove();
-						getData(dataUrl, 1, sortField, "asc");
+						getData(dataUrl, 1, sortField, "asc", showPagination);
 						$(this).attr("class", "asc").append('<i class="fa fa-sort-asc" style="margin-left:5px"></i>');
 					}
 				}

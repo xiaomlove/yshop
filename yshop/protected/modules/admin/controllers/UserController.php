@@ -105,6 +105,7 @@ class UserController extends AdminController
 			}
 			
 		}
+		array_shift($this->breadcrumbs);
 		$this->render('profile', array('userInfo' => $userInfo, 'userModel' => $userModel, 'submit' => $submit));
 	}
 }

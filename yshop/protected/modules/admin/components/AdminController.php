@@ -8,7 +8,8 @@ class AdminController extends Controller
 	
 	public function init()
 	{
-		$this->leftMenu = Tool::getAdminMenuArray();
+// 		$this->leftMenu = Tool::getConfig('leftMenu');
+		$this->leftMenu = Yii::getConfig('leftMenu');
 		
 	}
 	

@@ -109,6 +109,9 @@
 .action-table i{margin-right:5px}
 .brand-logo-img{margin-left:0}
 
+/*分类下的品牌*/
+.table-title{display:inline-block;position:absolute;right:45%;font-size:25px;font-weight:bold;margin-top:-5px}
+.move{cursor:move}
 
 /*后台尾部  */
 .foot{text-align:center;height:50px;line-height:50px;width:100%;position:absolute}

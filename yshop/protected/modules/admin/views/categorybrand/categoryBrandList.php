@@ -15,15 +15,22 @@
             </td>
             <td><?php echo $brand['brand_name']?></td>
             <td><?php echo $brand['brand_english_name']?></td>
-            <td><?php echo $brand['brand_home_url']?></td>
+            <td><i class="fa fa-hand-o-up move"></i></td>
         
             <td class="action-href">
-            <a href="<?php echo $this->createUrl('brand/edit', array('id'=>$brand['brand_id']))?>">编辑</a>
             <a class="delete" href="javascript:void(0)">删除</a>
             </td>
         </tr>
      <?php endForeach?>
      <input type="hidden" id="count" value="<?php echo $count?>">
+     
+     <script type="text/javascript">
+	var ajaxSaveSortUrl = '<?php echo $this->createUrl('saveCategoryBrandSort')?>';
+	</script>
+	<script type="text/javascript" src="<?php echo UILIBS_URL?>jqueryui-sortable/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="<?php echo UILIBS_URL?>jquery.json.min.js"></script>
+	<script type="text/javascript" src="<?php echo ADMIN_JS_URL?>category.js"></script>
+	<link rel="stylesheet" type="text/css" href="<?php echo UILIBS_URL?>jqueryui-sortable/jquery-ui.min.css"></link>
 <?php endIf?>
-        
+      
 		   

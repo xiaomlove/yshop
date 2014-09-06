@@ -24,4 +24,22 @@ require(dirname(__FILE__).'/YiiBase.php');
  */
 class Yii extends YiiBase
 {
+	private static $config = null;
+	
+	public static function setConfig($file)
+	{
+		if(is_string($file) && !empty($file) && self::$config === null)
+		{
+			self::$config = require_once($file);
+		}
+	}
+	public static function getConfig($key)
+	{
+		if(is_string($key) && isset(self::$config[$key]))
+		{
+			return self::$config[$key];
+		}else{
+			return null;
+		}
+	}
 }

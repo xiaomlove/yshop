@@ -86,4 +86,5 @@ class CategoryController extends AdminController
 			echo FALSE;
 		}
 	}
+	
 }

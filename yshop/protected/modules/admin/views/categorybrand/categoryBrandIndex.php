@@ -1,6 +1,7 @@
 <div class="row">
 	<div class="col-xs-12">
 		<div class="action-table">
+		<!-- 
 			<div class="per-page">
 				<select name="" id="per-page">
 					<option value="5">5</option>
@@ -8,9 +9,11 @@
 					<option value="50">50</option>					
 				</select>
 			</div>
+		 -->
 			<div class="btn btn-primary btn-xs" id="add-brand"><i class="fa fa-minus"></i>批量删除</div>
 			<a class="btn btn-primary btn-xs" id="" href="<?php echo $this->createUrl('brand/add')?>"><i class="fa fa-plus"></i>添加品牌</a>
-			
+			<a class="btn btn-primary btn-xs"><i class="fa fa-plus"></i>保存更改</a>
+			<div class="table-title">分类【<?php echo $catInfo['item_category_name']?>】下的品牌</div>
 			<div class="pull-right search"><input type="text" name="search" id="search" placeholder="搜索"><i class="fa fa-search search-icon"></i></div>
 		</div>
 		<table class="table table-bordered" id="table">
@@ -19,7 +22,7 @@
 		        	<th id="brand_logo"><input type="checkbox" id="select-all" class="my-checkbox">品牌logo</th>	   
 		        	<th id="brand_name">品牌名称</th>	   
 		            <th id="brand_english_name">品牌英文名</th>	            
-		            <th id="brand_home_url">品牌官网</th>	            
+		            <th id="brand_home_url">移动</th>	            
 		        	<th>操作</th>
 		        
 		        </tr>
@@ -48,13 +51,12 @@
 </style>
 
 <script type="text/javascript">
-	var dataUrl = "<?php echo $this->createUrl('brand/list')?>";
-	var deleteUrl = "<?php echo $this->createUrl('brand/delete')?>";
-	var showPagination = true;
+	var dataUrl = "<?php echo $this->createUrl('categorybrand/list', array('catId'=>$catInfo['item_category_id']))?>";
+	var deleteUrl = "<?php echo $this->createUrl('categorybrand/delete', array('catId'=>$catInfo['item_category_id']))?>"
+	var showPagination = false;
 	$(document).ready(function(){
-		getData(dataUrl);
+		getData(dataUrl, false, false, false, showPagination);
 		sortField('brand_name', 'brand_english_name');
-		ajaxDelete();
 	});	
 </script>
 <script type="text/javascript" src="<?php echo ADMIN_JS_URL?>table.js"></script>

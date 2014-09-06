@@ -28,6 +28,13 @@ class Brand extends CActiveRecord
 		);
 	}
 	
+	public function relations()
+	{
+		return array(
+			'categorybrands'=>array(self::HAS_MANY, 'CategoryBrand', 'item_category_id'),
+		);
+	}
+	
 	//验证之前先判断是否为空
 	/*
 	public function beforeValidate()

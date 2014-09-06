@@ -24,3 +24,8 @@ define('GENDER_UNKNOWN', 3);
 define('PARAM_ERROR', '参数错误');
 define('NOT_EXIST', '目标不存在');
 define('ACTION_FAILED', '执行失败');
+
+/*品牌logo*/
+define('BRAND_LOGO_URL', './assets/admin/images/brand_logo_img/');//上传目录
+define('BRAND_LOGO_WIDTH', 120);//logo图片裁切宽度
+define('BRAND_LOGO_HEIGHT', 80);//logo图片裁切高度
