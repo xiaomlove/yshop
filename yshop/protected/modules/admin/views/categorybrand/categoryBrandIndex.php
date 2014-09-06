@@ -51,8 +51,8 @@
 </style>
 
 <script type="text/javascript">
-	var dataUrl = "<?php echo $this->createUrl('categorybrand/list', array('catId'=>$catInfo['item_category_id']))?>";
-	var deleteUrl = "<?php echo $this->createUrl('categorybrand/delete', array('catId'=>$catInfo['item_category_id']))?>"
+	var dataUrl = "<?php echo $this->createUrl('categoryBrand/list', array('catId'=>$catInfo['item_category_id']))?>";
+	var deleteUrl = "<?php echo $this->createUrl('categoryBrand/delete', array('catId'=>$catInfo['item_category_id']))?>"
 	var showPagination = false;
 	$(document).ready(function(){
 		getData(dataUrl, false, false, false, showPagination);
